@@ -30,6 +30,7 @@
     <script>scripts\JoueurStep.gml</script>
     <script>scripts\Lava.gml</script>
     <script>scripts\InfiniteWall.gml</script>
+    <script>scripts\lava_move.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_lava</object>
