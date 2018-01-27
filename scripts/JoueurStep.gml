@@ -1,25 +1,22 @@
 //Variable
-sprite_speed = .4;
+image_speed = 0.2;
 
 //DEPLACEMENT
 //Déplaement à droite
 if (keyboard_check(vk_right) && place_free(x+5,y)){
     x+=5;
-    sprite_index = santa_right;
-    image_speed = sprite_speed;
+    sprite_index = dio_right;
 }
 
 // Déplacement à gauche
 else if (keyboard_check(vk_left) && place_free(x-5,y)){
     x-=5;
-    sprite_index = santa_idle;
-    image_speed = sprite_speed;
+    sprite_index = dio_left;
 }
 
 // Aucun déplacement
 else {
-    sprite_index = santa_idle;
-    image_speed = sprite_speed;
+    sprite_index = dio_idle;
 }
 
 
@@ -30,7 +27,6 @@ if (place_free(x,y+1)){
     gravity = 0;
     if (keyboard_check(vk_space)){
     vspeed = -15;
-    sprite_index = santa_jump
-    image_speed = sprite_speed;
+    sprite_index = dio_jump;
     }
 }
