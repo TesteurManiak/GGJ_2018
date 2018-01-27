@@ -32,7 +32,6 @@ vsp = 0;
 jumpspeed = 7;
 movespeed = 4;
 grounded = 0;
-//Image_speed = 0.01;
 </string>
           </argument>
         </arguments>
@@ -100,6 +99,12 @@ if(place_meeting(x, y+vsp, obj_wall))
 }
 y += vsp;
 
+if(place_meeting(x, y, obj_lava))
+{
+    instance_destroy();
+    room_restart();
+}
+
 //Animate
 if(move != 0)
 {
@@ -111,13 +116,11 @@ if (grounded)
     if (hsp == 0)
     {
         sprite_index = santa_idle;
-        image_speed = 0.3;
     }   
     else
     {
         if (sprite_index != santa_right) image_index = 0;
         sprite_index = santa_right;
-        image_speed = 0.3;
     }
 }
 else
@@ -125,7 +128,6 @@ else
     if (move != 0)
     {
         sprite_index = santa_jump;
-        image_speed = 0.3;
     }
 }
 </string>
