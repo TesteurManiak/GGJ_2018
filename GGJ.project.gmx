@@ -18,12 +18,17 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\InfiniteWall.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_lava</object>
     <object>objects\player</object>
     <object>objects\ennemi</object>
     <object>objects\obj_ground</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_generator</object>
+    <object>objects\standing_point</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test</room>
