@@ -99,6 +99,12 @@ if(place_meeting(x, y+vsp, obj_wall))
 }
 y += vsp;
 
+if(place_meeting(x, y, obj_lava))
+{
+    instance_destroy();
+    room_restart();
+}
+
 //Animate
 if(move != 0)
 {
