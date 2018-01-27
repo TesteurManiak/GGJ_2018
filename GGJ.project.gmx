@@ -29,6 +29,7 @@
     <script>scripts\Collision.gml</script>
     <script>scripts\JoueurStep.gml</script>
     <script>scripts\Lava.gml</script>
+    <script>scripts\InfiniteWall.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_lava</object>
@@ -37,6 +38,7 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_plate</object>
+    <object>objects\obj_generator</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test</room>
