@@ -42,7 +42,7 @@
     <object>objects\obj_generator</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test</room>
+    <room>rooms\test_batou</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

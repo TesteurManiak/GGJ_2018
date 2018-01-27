@@ -49,11 +49,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>010000000</string>
+            <string>000000010</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0.5</string>
+            <string>0.05</string>
           </argument>
         </arguments>
       </action>

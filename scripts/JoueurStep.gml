@@ -19,10 +19,6 @@ else if (keyboard_check(vk_left) && place_free(x-5,y)){
 else {
     if ((place_meeting(x, y+1, obj_ground) || place_meeting(x, y+1, obj_plate)))
         sprite_index = dio_idle;
-    else if (keyboard_check(vk_right) || keyboard_check(vk_right) || (keyboard_check(vk_right) && keyboard_check(vk_space)))
-        sprite_index = dio_jump;
-    else if (keyboard_check(vk_left) || keyboard_check(vk_left) || (keyboard_check(vk_left) && keyboard_check(vk_space)))
-        sprite_index = dio_jump2;
     image_speed = 0.03;
 }
 
@@ -30,16 +26,11 @@ else {
 //GRAVITE & SAUT
 if (place_free(x,y+1)){
     gravity = 1;
-    if(keyboard_check(vk_right))
-        sprite_index = dio_jump;
-    if (keyboard_check(vk_left))
-    sprite_index = dio_jump2;
-    image_speed = 0.03;
 } else {
     gravity = 0;
     if (keyboard_check(vk_space))
     {
-    vspeed = -15;
+    vspeed = -20;
         if(keyboard_check(vk_right) || keyboard_check(vk_space))
             sprite_index = dio_jump;
         if (keyboard_check(vk_left) || (keyboard_check(vk_left) && keyboard_check(vk_space)))
