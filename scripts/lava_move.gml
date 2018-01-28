@@ -6,3 +6,4 @@ image_speed = 0.5;
 // lava move
 move = 1;
 vsp = move * movespeed;
+

@@ -14,9 +14,6 @@
     <sprite>sprites\sol</sprite>
     <sprite>sprites\mur</sprite>
     <sprite>sprites\zombie_idle</sprite>
-    <sprite>sprites\santa_idle</sprite>
-    <sprite>sprites\santa_right</sprite>
-    <sprite>sprites\santa_jump</sprite>
     <sprite>sprites\dio_idle</sprite>
     <sprite>sprites\dio_idle2</sprite>
     <sprite>sprites\dio_right</sprite>
@@ -24,11 +21,12 @@
     <sprite>sprites\dio_jump</sprite>
     <sprite>sprites\dio_jump2</sprite>
     <sprite>sprites\plate</sprite>
-    <sprite>sprites\Play</sprite>
-    <sprite>sprites\Quit</sprite>
+    <sprite>sprites\Play_test</sprite>
+    <sprite>sprites\Exit_test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
