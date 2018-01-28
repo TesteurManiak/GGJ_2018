@@ -31,6 +31,10 @@
     <sprite>sprites\champi_dash</sprite>
     <sprite>sprites\champi_superjump</sprite>
     <sprite>sprites\Restart</sprite>
+    <sprite>sprites\champi_inverse</sprite>
+    <sprite>sprites\champi_ralenti</sprite>
+    <sprite>sprites\champi_tpbas</sprite>
+    <sprite>sprites\champi_tphaut</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -66,10 +70,15 @@
     <object>objects\obj_superjump</object>
     <object>objects\obj_dash</object>
     <object>objects\obj_restart</object>
+    <object>objects\obj_inverse</object>
+    <object>objects\obj_ralenti</object>
+    <object>objects\obj_tpbas</object>
+    <object>objects\obj_tphaut</object>
+    <object>objects\menu_didact</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
-    <room>rooms\test_batou</room>
+    <room>rooms\the_room</room>
     <room>rooms\DIE</room>
   </rooms>
   <help>

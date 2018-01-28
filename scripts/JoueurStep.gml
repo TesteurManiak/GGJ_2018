@@ -1,8 +1,71 @@
 //DEPLACEMENT
 //Déplaement à droite
+if (global.inverse = 1)
+{
+// si malus inverser
+if (keyboard_check(vk_right) && place_free(x-5,y))
+{
+    if (global.ralenti = 1)
+    {
+        x-=3
+    }
+    else {
+        x-=5; 
+    }   
+    if !(keyboard_check(vk_space))
+    {    
+        sprite_index = dio_right;
+        image_speed = 0.170;
+    }
+     if (keyboard_check_pressed(vk_control) && place_free(x - 100,y) && global.dash == 1)
+    {
+        sprite_index = invisible;
+        x = x - 100;
+    }
+}
+// Déplacement à gauche
+else if (keyboard_check(vk_left) && place_free(x+5,y))
+{
+    if (global.ralenti = 1)
+    {
+        x+=3;
+    }
+    else {
+        x+=5;
+    }
+    if !(keyboard_check(vk_space))
+    {
+       sprite_index = dio_left;
+       image_speed = 0.170;    
+    }
+        if (keyboard_check_pressed(vk_control) && place_free(x+100,y) && global.dash == 1)
+    {
+        sprite_index = invisible;    
+        x = x + 100;
+    }
+}
+
+// Aucun déplacement
+else {
+    if ((place_meeting(x, y+1, obj_ground) || place_meeting(x, y+1, obj_plate) || place_meeting(x, y+1, obj_plat3) || place_meeting(x, y+1, obj_plat2) || place_meeting(x, y+1, obj_plat1)) )
+    {
+        sprite_index = dio_idle;
+        image_speed = 0.03;
+    }
+}
+}
+else
+{
+// si déplacement normaux
 if (keyboard_check(vk_right) && place_free(x+5,y))
 {
-    x+=5;    
+    if (global.ralenti = 1)
+    {
+    x+=3
+    }
+    else {
+    x+=5; 
+    }   
     if !(keyboard_check(vk_space))
     {    
         sprite_index = dio_right;
@@ -15,10 +78,17 @@ if (keyboard_check(vk_right) && place_free(x+5,y))
     }
 }
 
+
 // Déplacement à gauche
 else if (keyboard_check(vk_left) && place_free(x-5,y))
 {
-    x-=5;
+    if (global.ralenti = 1)
+    {
+        x-=3
+    }
+    else {
+        x-=5; 
+    }   
     if !(keyboard_check(vk_space))
     {
        sprite_index = dio_left;
@@ -39,7 +109,7 @@ else {
         image_speed = 0.03;
     }
 }
-
+}
 
 //GRAVITE & SAUT
 if (place_free(x,y+1)){

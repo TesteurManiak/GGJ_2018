@@ -40,6 +40,14 @@ if (global.superjump == 1)
 {
     draw_text(room_width/2,90,"Super jump");
 }
+if (global.inverse == 1)
+{
+    draw_text(room_width/2,120,"Inverted keys");
+}
+if (global.ralenti == 1)
+{
+    draw_text(room_width/2,150,"Slow");
+}
 
 draw_set_font(f_pause);
 </string>
@@ -85,6 +93,20 @@ draw_set_font(f_pause);
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
         <whoName>Pause</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>menu_didact</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
