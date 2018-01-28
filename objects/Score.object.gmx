@@ -25,11 +25,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_black);
+            <string>///Death_text
+draw_set_color(c_black);
 draw_set_font(f_pause);
 draw_set_halign(fa_center);
 draw_text(room_width/2,room_height/2 - 124,"PRESS ENTER TO RETRY");
 draw_text(room_width/2,room_height/2 + 124,"PRESS ESCAPE TO RETURN TO THE MENU");
+draw_text(room_width/2, 0,"Skill transmission :");
+draw_set_font(f_skill);
+if (global.dash == 1)
+{
+    draw_text(room_width/2,60,"DASH (ctrl)");
+}
+if (global.superjump == 1)
+{
+    draw_text(room_width/2,90,"Super jump");
+}
+
+draw_set_font(f_pause);
 </string>
           </argument>
         </arguments>

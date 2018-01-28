@@ -1,3 +1,3 @@
 //Variables
-global.doublejump = 0;
+global.superjump = 0;
 global.dash = 0;

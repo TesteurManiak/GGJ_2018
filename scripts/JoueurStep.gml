@@ -8,10 +8,10 @@ if (keyboard_check(vk_right) && place_free(x+5,y))
         sprite_index = dio_right;
         image_speed = 0.170;
     }
-     if (keyboard_check(vk_control) && place_free(x+15,y) && global.dash == 1)
+     if (keyboard_check_pressed(vk_control) && place_free(x+100,y) && global.dash == 1)
     {
         sprite_index = invisible;
-        x = x + 15;
+        x = x + 100;
     }
 }
 
@@ -24,10 +24,10 @@ else if (keyboard_check(vk_left) && place_free(x-5,y))
        sprite_index = dio_left;
        image_speed = 0.170;    
     }
-        if (keyboard_check(vk_control) && place_free(x-15,y) && global.dash == 1)
+        if (keyboard_check_pressed(vk_control) && place_free(x-100,y) && global.dash == 1)
     {
         sprite_index = invisible;    
-        x = x - 15;
+        x = x - 100;
     }
 }
 
@@ -49,7 +49,7 @@ if (place_free(x,y+1)){
     if (keyboard_check(vk_space) || (keyboard_check(vk_space) && keyboard_check(vk_left) || (keyboard_check(vk_space) && keyboard_check(vk_right))))
     {
     vspeed = -20;
-    if (global.doublejump = 1 && keyboard_check(vk_space))
+    if (global.superjump = 1 && keyboard_check(vk_space))
     {
         vspeed = -25;
     }
