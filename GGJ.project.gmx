@@ -23,7 +23,9 @@
     <sprite>sprites\plate</sprite>
     <sprite>sprites\Play_test</sprite>
     <sprite>sprites\Exit_test</sprite>
-    <sprite>sprites\plat_nu</sprite>
+    <sprite>sprites\plat1</sprite>
+    <sprite>sprites\plat2</sprite>
+    <sprite>sprites\plat3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -50,7 +52,9 @@
     <object>objects\Pause</object>
     <object>objects\Score</object>
     <object>objects\Start</object>
-    <object>objects\obj_plat_nu</object>
+    <object>objects\obj_plat1</object>
+    <object>objects\obj_plat2</object>
+    <object>objects\obj_plat3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
