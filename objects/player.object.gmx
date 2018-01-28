@@ -122,7 +122,7 @@ Collision();
           <argument>
             <kind>1</kind>
             <string>///lava collision
-Lava();
+player_die();
 </string>
           </argument>
         </arguments>

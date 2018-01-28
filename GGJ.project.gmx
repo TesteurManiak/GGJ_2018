@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\hurt</sound>
+    <sound>sound\lava_sound</sound>
+    <sound>sound\tower</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sLava</sprite>
     <sprite>sprites\sol</sprite>
@@ -20,6 +24,8 @@
     <sprite>sprites\dio_jump</sprite>
     <sprite>sprites\dio_jump2</sprite>
     <sprite>sprites\plate</sprite>
+    <sprite>sprites\Play</sprite>
+    <sprite>sprites\Quit</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -28,10 +34,13 @@
   <scripts name="scripts">
     <script>scripts\Collision.gml</script>
     <script>scripts\JoueurStep.gml</script>
-    <script>scripts\Lava.gml</script>
+    <script>scripts\player_die.gml</script>
     <script>scripts\InfiniteWall.gml</script>
     <script>scripts\lava_move.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\f_pause</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_lava</object>
     <object>objects\player</object>
@@ -40,9 +49,15 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_plate</object>
     <object>objects\obj_generator</object>
+    <object>objects\Exit</object>
+    <object>objects\Pause</object>
+    <object>objects\Score</object>
+    <object>objects\Start</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Menu</room>
     <room>rooms\test_batou</room>
+    <room>rooms\DIE</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
