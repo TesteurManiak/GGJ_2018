@@ -23,6 +23,7 @@
     <sprite>sprites\plate</sprite>
     <sprite>sprites\Play_test</sprite>
     <sprite>sprites\Exit_test</sprite>
+    <sprite>sprites\plat_nu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -33,7 +34,6 @@
     <script>scripts\Collision.gml</script>
     <script>scripts\JoueurStep.gml</script>
     <script>scripts\player_die.gml</script>
-    <script>scripts\InfiniteWall.gml</script>
     <script>scripts\lava_move.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -46,11 +46,11 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_plate</object>
-    <object>objects\obj_generator</object>
     <object>objects\Exit</object>
     <object>objects\Pause</object>
     <object>objects\Score</object>
     <object>objects\Start</object>
+    <object>objects\obj_plat_nu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
