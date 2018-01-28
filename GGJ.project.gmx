@@ -28,8 +28,8 @@
     <sprite>sprites\plat2</sprite>
     <sprite>sprites\plat3</sprite>
     <sprite>sprites\invisible</sprite>
-    <sprite>sprites\champi2</sprite>
-    <sprite>sprites\champi1</sprite>
+    <sprite>sprites\champi_dash</sprite>
+    <sprite>sprites\champi_doublejump</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -60,8 +60,8 @@
     <object>objects\obj_plat1</object>
     <object>objects\obj_plat2</object>
     <object>objects\obj_plat3</object>
-    <object>objects\obj_champi1</object>
-    <object>objects\obj_champi2</object>
+    <object>objects\obj_doublejump</object>
+    <object>objects\obj_dash</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

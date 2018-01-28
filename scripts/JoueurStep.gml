@@ -49,6 +49,10 @@ if (place_free(x,y+1)){
     if (keyboard_check(vk_space) || (keyboard_check(vk_space) && keyboard_check(vk_left) || (keyboard_check(vk_space) && keyboard_check(vk_right))))
     {
     vspeed = -20;
+    if (global.doublejump = 1 && keyboard_check(vk_space))
+    {
+        vspeed = -25;
+    }
         if(keyboard_check(vk_right) || keyboard_check(vk_space))
             sprite_index = dio_jump;
         if (keyboard_check(vk_left) || (keyboard_check(vk_left) && keyboard_check(vk_space)))
