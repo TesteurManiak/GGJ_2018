@@ -27,6 +27,9 @@
     <sprite>sprites\plat1</sprite>
     <sprite>sprites\plat2</sprite>
     <sprite>sprites\plat3</sprite>
+    <sprite>sprites\invisible</sprite>
+    <sprite>sprites\champi2</sprite>
+    <sprite>sprites\champi1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -38,6 +41,8 @@
     <script>scripts\JoueurStep.gml</script>
     <script>scripts\player_die.gml</script>
     <script>scripts\lava_move.gml</script>
+    <script>scripts\globale.gml</script>
+    <script>scripts\add_competence.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_pause</font>
@@ -56,6 +61,8 @@
     <object>objects\obj_plat1</object>
     <object>objects\obj_plat2</object>
     <object>objects\obj_plat3</object>
+    <object>objects\obj_champi1</object>
+    <object>objects\obj_champi2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

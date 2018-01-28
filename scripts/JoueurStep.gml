@@ -1,23 +1,33 @@
-//Variable
-
 //DEPLACEMENT
 //Déplaement à droite
-if (keyboard_check(vk_right) && place_free(x+5,y)){
-    x+=5;
+if (keyboard_check(vk_right) && place_free(x+5,y))
+{
+    x+=5;    
     if !(keyboard_check(vk_space))
-    {
+    {    
         sprite_index = dio_right;
         image_speed = 0.170;
+    }
+     if (keyboard_check(vk_control) && place_free(x+15,y) && global.dash == 1)
+    {
+        sprite_index = invisible;
+        x = x + 15;
     }
 }
 
 // Déplacement à gauche
-else if (keyboard_check(vk_left) && place_free(x-5,y)){
+else if (keyboard_check(vk_left) && place_free(x-5,y))
+{
     x-=5;
     if !(keyboard_check(vk_space))
     {
        sprite_index = dio_left;
        image_speed = 0.170;    
+    }
+        if (keyboard_check(vk_control) && place_free(x-15,y) && global.dash == 1)
+    {
+        sprite_index = invisible;    
+        x = x - 15;
     }
 }
 

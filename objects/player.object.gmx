@@ -45,7 +45,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var music = audio_play_sound(music_crisis, 1, true);
+            <string>///Musique
+var music = audio_play_sound(music_crisis, 1, true);
 audio_sound_gain(music, 1, 0);
 </string>
           </argument>
