@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\hurt</sound>
+    <sound>sound\lava_sound</sound>
+    <sound>sound\tower</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sLava</sprite>
     <sprite>sprites\sol</sprite>
@@ -13,20 +17,31 @@
     <sprite>sprites\santa_idle</sprite>
     <sprite>sprites\santa_right</sprite>
     <sprite>sprites\santa_jump</sprite>
+    <sprite>sprites\Play</sprite>
+    <sprite>sprites\Quit</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\f_pause</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_lava</object>
     <object>objects\player</object>
     <object>objects\ennemi</object>
     <object>objects\obj_ground</object>
     <object>objects\obj_wall</object>
+    <object>objects\Start</object>
+    <object>objects\Exit</object>
+    <object>objects\Pause</object>
+    <object>objects\Score</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Menu</room>
     <room>rooms\test</room>
+    <room>rooms\DIE</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

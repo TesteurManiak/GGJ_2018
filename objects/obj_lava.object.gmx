@@ -29,6 +29,8 @@
 vsp = 0;
 movespeed = 4;
 image_speed = 0.2;
+var lava = audio_play_sound(lava_sound, 1, true);
+audio_sound_gain(lava, 0.5, 0);
 </string>
           </argument>
         </arguments>
