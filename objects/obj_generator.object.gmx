@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>9</kind>
+<<<<<<< HEAD
             <script>InfiniteWall</script>
+=======
+            <script>&lt;undefined&gt;</script>
+>>>>>>> ElisabethBely-patch-1
           </argument>
           <argument>
             <kind>0</kind>
@@ -67,7 +71,11 @@
         <arguments>
           <argument>
             <kind>9</kind>
+<<<<<<< HEAD
             <script>InfiniteWall</script>
+=======
+            <script>&lt;undefined&gt;</script>
+>>>>>>> ElisabethBely-patch-1
           </argument>
           <argument>
             <kind>0</kind>
