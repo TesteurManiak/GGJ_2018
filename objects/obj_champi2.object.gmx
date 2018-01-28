@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Eat_champi
-add_competence();
+            <string>///dash
+global.dash = 1;
 instance_destroy();
 </string>
           </argument>

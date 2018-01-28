@@ -42,7 +42,6 @@
     <script>scripts\player_die.gml</script>
     <script>scripts\lava_move.gml</script>
     <script>scripts\globale.gml</script>
-    <script>scripts\add_competence.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_pause</font>

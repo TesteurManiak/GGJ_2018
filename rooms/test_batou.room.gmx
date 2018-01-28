@@ -207,7 +207,7 @@
     <instance objName="obj_plat1" x="160" y="6464" name="inst_91946EBF" locked="0" code="" scaleX="2.17232370376587" scaleY="0.347826093435287" colour="4294967295" rotation="0"/>
     <instance objName="obj_plat1" x="32" y="6272" name="inst_CEB5351F" locked="0" code="" scaleX="2.17232370376587" scaleY="0.349999994039536" colour="4294967295" rotation="0"/>
     <instance objName="obj_plat1" x="160" y="6080" name="inst_F002C4CD" locked="0" code="" scaleX="2.17232370376587" scaleY="0.347826093435287" colour="4294967295" rotation="0"/>
-    <instance objName="obj_champi2" x="256" y="9440" name="inst_063EA93F" locked="0" code="" scaleX="1" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="obj_champi2" x="864" y="8608" name="inst_64BF30C1" locked="0" code="" scaleX="1" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
