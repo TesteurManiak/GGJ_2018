@@ -30,7 +30,6 @@ draw_set_color(c_black);
 draw_set_font(f_pause);
 draw_set_halign(fa_center);
 draw_text(room_width/2,room_height/2 - 124,"PRESS ENTER TO RETRY");
-draw_text(room_width/2,room_height/2 + 124,"PRESS ESCAPE TO RETURN TO THE MENU");
 draw_text(room_width/2, 0,"Skill transmission :");
 draw_set_font(f_skill);
 if (global.dash == 1)
@@ -86,22 +85,6 @@ draw_set_font(f_pause);
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
         <whoName>Pause</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="9" enumb="27">
-      <action>
-        <libid>1</libid>
-        <id>331</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_restart_game</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
