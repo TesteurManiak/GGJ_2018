@@ -55,8 +55,8 @@
     draw_set_halign(fa_center);
     draw_set_color(c_white);
     draw_set_font(f_pause);
-    draw_text(room_width/2,room_height/2 - 124,"PAUSE");
-    draw_text(room_width/2,room_height/2 + 124,"PRESS Q TO RETURN TO THE MENU");
+    draw_text(room_width/2, (view_yview + view_hview * 0.5) - 124,"PAUSE");
+    draw_text(room_width/2, (view_yview + view_hview * 0.5) + 124,"PRESS Q TO RETURN TO THE MENU");
     draw_set_color(c_black);
     if keyboard_check_pressed(ord("Q")) game_restart();
 }

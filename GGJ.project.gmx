@@ -8,6 +8,7 @@
     <sound>sound\hurt</sound>
     <sound>sound\lava_sound</sound>
     <sound>sound\tower</sound>
+    <sound>sound\music_crisis</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sLava</sprite>

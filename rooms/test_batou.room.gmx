@@ -176,6 +176,7 @@
     <instance objName="obj_plat2" x="800" y="8224" name="inst_44A56349" locked="0" code="" scaleX="1.5039370059967" scaleY="0.695652186870575" colour="4294967295" rotation="0"/>
     <instance objName="obj_plat2" x="864" y="7680" name="inst_36424AA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_plat2" x="896" y="7104" name="inst_2B13ED75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Pause" x="0" y="0" name="inst_30AE97CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
